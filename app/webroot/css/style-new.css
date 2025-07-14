@@ -1,0 +1,334 @@
+/* CSS Document */
+body 
+{
+ margin:0px;
+ position: relative;
+}
+div {
+	display:block;
+}
+/* Navigation Menu style */
+#nav {
+	list-style-type:none;
+ 	background-color:#006699;
+ 	width:100%;
+ 	height:65px;
+ 	position:fixed;
+}
+#nav ul {
+	position:fixed;
+	padding-top:10px;
+	padding-left:250px;
+}
+#nav li {
+ 	display:inline;
+ 	padding:10px;
+}
+#nav a {
+	font-family:verdana;
+ 	text-decoration:none;
+ 	color:#EDEDED;
+} 
+#nav a:hover {
+ color:#BDBDBD;
+}
+
+#nav img.icon{
+	display:block;
+	position:absolute;
+	left:20px;
+	top:3px;
+	width:175px;
+	height:60px;
+}
+#nav a.button {
+	position:absolute;
+	left:780px;
+	top:20px;  
+	width:80px;
+	font-size: 14px;
+	background:#FE9A2E;
+	background: -moz-linear-gradient(
+		top,
+		#F7BE81 0%,
+		#FE9A2E);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#F7BE81),
+		to(#FE9A2E));	
+	color:#000;
+	font-style:bold;
+	font-family: Tahoma, Geneva, sans-serif;
+	height:25px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 1p solid #999;
+	margin:auto;
+	text-align:center;
+	padding-top:5px;
+    -moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.6);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.6);
+	box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.6);	
+}
+#nav a.button:hover {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	color: red;
+}
+
+/* End Navigation menu style */
+/* Top banner style, used in home page and few other pages */
+.top-banner {
+	background-color:#1f314b;
+	width:100%;
+	height:330px;
+	text-align: center;
+	box-shadow: 0px 1px 50px #5E5E5E;
+}
+.top-banner img {
+	padding-top:65px;
+	height:265px;
+	width:960px;
+}
+
+/* Main body of the page, does not include footer */
+.spacer {
+	padding-top:100px;	
+}
+#mainframe {
+	width:100%;
+	text-align:center;
+	padding-bottom:10px;
+}
+.top-text {
+	width:650px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.top-text p{
+	color: #333;
+	font-family: Segoe, "Segoe UI", sans-serif;
+	font-size: 20px;
+	font-weight: 100;
+	line-height: 28px;
+	text-align:center;
+}
+/* Middle of the home page */
+#mid-section {
+	width:960px;
+	overflow:hidden;
+	margin-left:auto;
+	margin-right:auto;
+	background-image: url("/img/gradient-divider.jpg");
+	background-position: top center;
+	background-repeat: no-repeat;
+	
+}
+#left-container {
+	float:left;
+	width:400px;
+	height:250px;
+	padding:10px 0 0 30px;
+	margin:0px;
+}
+#left-container h2 {
+	color:#006699;
+	font-family: verdana;
+	font-size: 24px;
+	line-height: 30px;
+	margin: 10px 0 0 10px;
+	font-weight: 200;
+	letter-spacing: -2px;
+}
+.reasonlist {
+	font-family:"Open Sans", Helvetica, Arial, sans-serif;
+	color: #333;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 28px;
+	padding-left:2px;
+	text-align: left;
+	margin-left:50px;
+}
+.long-button {
+	font-size: 14px;
+	background:#336666;
+	color:#fff;
+	font-family: Tahoma, Geneva, sans-serif;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: 1p solid #999;
+	margin:auto;
+	padding:5px 5px;
+	text-decoration:none;
+}
+#right-container {
+	float:right;
+	width:400px;
+	height:250px;
+	padding:15px 100px 0 0px;
+}
+
+/* Login frame used on home page and other login pages */
+#loginform form label
+{
+    display: block;
+    width: 150px;
+    float: left;
+    margin-bottom: 12px;
+
+}
+
+#loginform form .textonly
+{
+    display: block;
+    font-style:bold;
+    width: 150px;
+    margin-bottom: 20px;
+
+}
+
+#loginform form
+{
+	background: -webkit-gradient(linear, bottom, left 175px, from(#CCCCCC), to(#EEEEEE));
+	background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+	margin:auto;
+	position:relative;
+	width:375px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	font-style: italic;
+	line-height: 24px;
+	font-weight: bold;
+	color: #09c;
+	text-decoration: none;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #999;
+	border: inset 1px solid #333;
+	-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+#loginform form .go {
+	width:80px;
+	font-size: 14px;
+	background:#336666;
+	color:#fff;
+	font-family: Tahoma, Geneva, sans-serif;
+	height:30px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 1p solid #999;
+	margin-bottom:5px;
+}
+#loginform input {
+	font-size:24px;
+	width:300px;
+	margin-bottom:10px;
+}
+#loginform input:focus {
+	color:black;	
+}
+#loginform input.go:hover {
+	background:#fff;
+	color:#09C;
+}
+#loginform h3 {
+	verical-align:middle;
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	background: #006699;
+	padding-top:10px;
+	color:#fff;
+	margin:auto auto 15px auto;
+	height:30px;
+}
+
+.error-message {
+    color:red;
+    font: italic 12px Arial, Helvetica, sans-serif;
+}
+
+
+#bottom-section {
+	width:960px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-bottom:10px;
+	background-image: url("/img/gradient-divider.jpg");
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+
+#stats {
+	padding-top:10px;
+	overflow:hidden;
+}
+#stats span {
+	font-size: 80px;
+	color:gray;	
+}
+#block {
+	float: left;
+	padding:0px 50px 0px 150px;
+}
+#block p {
+	margin-top:0px;
+	color: #333;
+	font-family: Segoe, "Segoe UI", sans-serif;
+	font-size: 14px;
+}
+
+#footer {
+	position:relative;
+	z-index:10;
+	width:100%;
+	margin:auto;
+	background:url(../img/footer_bg.gif) 0 0 repeat-x #323232;
+	color:#fff;
+}
+#footer ul{
+	list-style-type:none;
+	padding:10px 0 0 10px;
+	margin:auto;
+}
+#footer li{
+	display: inline;
+	color:#D4D4C6;
+	background-color:inherit;
+	font:normal 14px/19px Arial, Helvetica, sans-serif;
+}
+#footer ul li a{
+	color:#D4D4C6;
+	background-color:inherit;
+	font:normal 14px/19px Arial, Helvetica, sans-serif;
+	padding:0 7px;
+	text-decoration:none;
+}
+#footer ul li a:hover{
+	color:#D4D4C6;
+	background-color:#D76E08;
+}
+
+#footer p.design{
+	font:bold 12px/19px Arial, Helvetica, sans-serif;
+	color:#C5BE25;
+	padding-left:15px;
+}
+
+
+
